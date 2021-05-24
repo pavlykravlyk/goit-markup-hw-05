@@ -577,7 +577,8 @@ body {
   opacity: 0;
 }
 
-.card.link:hover .description-text {
+.card.link:hover,
+.card.link:focus .description-text {
   opacity: 1;
   transform: translateY(0);
 }
